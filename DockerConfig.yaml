@@ -13,12 +13,12 @@ spec:
         app: Dockersampleconfig
     spec:
       containers:
-      - name: sureshncr
-        image: sureshncr.azurecr.io/learningrepos:latest
+      - name: sureshcrr
+        image: sureshcrr.azurecr.io/sureshrepos:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
-      - name: dsconfigsn1
+      - name: sureshconfig
 
 ---
 apiVersion: v1
